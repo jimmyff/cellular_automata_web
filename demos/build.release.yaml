@@ -1,0 +1,18 @@
+targets:
+  $default:
+    builders:
+      build_web_compilers|entrypoint:
+        generate_for:
+          - web/simple_example.dart
+          - web/cellular_automata.dart
+          - web/renderers/canvas/demo_canvas.dart
+          - web/renderers/html_table/demo_html_table.dart
+          - web/renderers/stagexl/demo_stagexl.dart
+        options:
+          compiler: dart2js
+          dart2js_args:
+            - --fast-startup
+            - --minify
+            - --trust-type-annotations
+            - --trust-primitives
+            - --preview-dart-2
