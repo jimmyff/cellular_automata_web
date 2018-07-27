@@ -1,6 +1,6 @@
 name: cellular_automata_web
 description: Web renderes and demos for the cellular_automata package.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/jimmyff/cellular_automata_web
 author: Jimmy Forrester-Fellowes <jimmyff@jimmyff.uk>
 

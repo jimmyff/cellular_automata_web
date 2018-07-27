@@ -14,3 +14,7 @@ Play with the hosted [demos here](http://jimmyff.github.io/cellular_automata_web
 - `CanvasRenderer` : HTML Canvas renderer, this is the recommended renderer for web.
 - `StageXLRenderer` : WebGL renderer although in this context not quite as performant as Canvas.
 - `HtmlTableRenderer` : A HTML table using table cells & css (just for fun!)
+
+## Build config
+
+For best perfomance ensure that you set `--omit-implicit-checks` and `--trust-primitives` as dart2js arguments in your build config. See the [demo release config](https://github.com/jimmyff/cellular_automata_web/blob/master/demos/build.release.yaml) for an example of this.
