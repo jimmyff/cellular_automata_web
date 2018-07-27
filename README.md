@@ -1,5 +1,8 @@
 # cellular_automata_web
 
+[![Pub Package Version](https://img.shields.io/pub/v/cellular_automata_web.svg)](https://pub.dartlang.org/packages/cellular_automata_web)
+[![Latest Dartdocs](https://img.shields.io/badge/dartdocs-latest-blue.svg)](https://pub.dartlang.org/documentation/cellular_automata_web/latest)
+
 Library containing various web renderers for the [cellular_automata](https://pub.dartlang.org/packages/cellular_automata) Dart package.
 
 ## Web demos

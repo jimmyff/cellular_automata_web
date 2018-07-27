@@ -26,10 +26,21 @@
             "problemMatcher": []
         },
         {
-            "label": "Web demos: Run tests",
+            "label": "Web demos: Build & deploy",
             "type": "shell",
-            "command": "pub run test",
-            "group": "test",
+            "command": "peanut --build-config=release",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Web demos: push to gh-pages",
+            "type": "shell",
+            "command": "git push origin --set-upstream gh-pages",
+            "group": "none",
             "presentation": {
                 "reveal": "always",
                 "panel": "shared"

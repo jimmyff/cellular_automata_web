@@ -14,5 +14,16 @@
             },
             "problemMatcher": []
         },
+        {
+            "label": "Web demos: Build & deploy",
+            "type": "shell",
+            "command": "peanut --directory=web --build-config=",
+            "group": "none",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
     ]
 }
